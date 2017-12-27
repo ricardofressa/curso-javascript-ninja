@@ -71,28 +71,29 @@ Crie uma função chamada `convertToHex`, com as seguintes características:
     a frase:
     "Não temos o equivalente hexadecimal para [COR]."
 */
-function convertToHex( color ) {
+function convertToHex (color) {
   var hexa
-  switch(color) {
-         case 'red' : 
-          hexa = #FF0000;
+  switch (color) {
+    case 'red' :
+      hexa = '#FF0000'
          break
-         case 'blue' : 
-          hexa = #0000FF;
+    case 'blue' :
+      hexa = '#0000FF'
          break
-         case 'green' : 
-          hexa = '#00FF00';
+    case 'green' :
+      hexa = '#00FF00'
          break
-         case 'black' : 
-          hexa = '#000000';
+    case 'black' :
+      hexa = '#000000'
          break
-         case 'white' : 
-          hexa = '#FFFFFF';
+    case 'white' :
+      hexa = '#FFFFFF'
          break
-         default :
-          return 'No temos o equivalente hexadecinal para ' + color + '!';
+    default :
+      return 'No temos o equivalente hexadecinal para ' + color + '!'
   }
- return O Hexadecimal para a cor ' + color + ' é ' + hexa;
+  return 'O Hexadecimal para a cor ' + color + ' é ' + hexa
+}
 
 /*
 Tente mostrar o hexadecimal de 8 cores diferentes usando a função criada acima.
